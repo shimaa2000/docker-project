@@ -1,0 +1,131 @@
+@import "https://getbootstrap.com/docs/5.0/examples/blog-rtl/";
+@import "https://fonts.googleapis.com/css?family=Amiri:wght@400;700&amp;display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+    text-align: right;
+}
+
+.head-nav {
+    height: 80px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+main {
+    margin-bottom: 100px;
+}
+.p {
+    margin: 10px;
+    color: #525252;
+}
+
+h2, h3 {
+    color: #0d959e;
+}
+
+main p {
+    font-family: 'JF-Flat-Regular';
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.type {
+    border: 1px solid #0d959e;
+    color: #0d959e;
+    padding: 10px 30px;
+    margin: 30px 10px;
+    border-radius: 25px;
+}
+
+.type:hover {
+    background-color: #0d959e;
+    color: white;
+}
+ol li{
+    list-style-type: arabic-indic;
+    color: #525252;
+    margin-top: 5px;
+}
+
+header{
+    position: static;
+    width: 100%;
+    height: 100%;
+}
+
+.blog-header-logo {
+    color: #0497a0;
+}
+
+.type {
+    border: 1px solid #0d959e;
+    color: #0d959e;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.type:hover {
+    background-color: #0d959e;
+    text-decoration: none;
+    color: white;
+}
+nav {
+    padding: 2px;
+    height: 100%;
+}
+
+img {
+    height: 70px;
+}
+
+a:hover {
+    color: #0d959e;
+    text-decoration: none;
+}
+
+
+h2 , h3 {
+    font-family: 'Cairo', sans-serif;
+}
+
+.dark {
+    background: rgb(0,161,177);
+    background: linear-gradient(90deg, rgba(0,161,177,1) 0%, rgba(8,193,205,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.st {
+    color: #1D2231;
+    font-weight: bold;
+    border-bottom: 2px solid #1D2231;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-family: 'Cairo', sans-serif;
+}
+.stt {
+    color: #1D2231;
+    font-weight: bold;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-family: 'Cairo', sans-serif;
+}
+.form {
+    margin: 10px 0 70px;
+}
